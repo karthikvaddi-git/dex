@@ -5,7 +5,9 @@ import singleSwapToken from "./SingleSwapToken.json";
 import swapMultiHop from "./SwapMultiHop.json";
 import IWETH from "./IWETH.json";
 import userStorgeData from "./UserStorageData.json";
-
+//SingleSwapToken deployed to 0x5E5713a0d915701F464DEbb66015adD62B2e6AE9
+//swapMultiHop deployed to 0x97fd63D049089cd70D9D139ccf9338c81372DE68
+//UserStorageData deployed to 0xC0BF43A4Ca27e0976195E6661b099742f10507e5
 //BOOTOKEN
 export const BooTokenAddress = "0x408F924BAEC71cC3968614Cb2c58E155A35e6890";
 export const BooTokenABI = booToken.abi;
@@ -16,11 +18,11 @@ export const LifeTokenABI = lifeToken.abi;
  
 //SINGLE SWAP TOKEN 
 export const SingleSwapTokenAddress =
-  "0x9e7F7d0E8b8F38e3CF2b3F7dd362ba2e9E82baa4";
+  "0x5E5713a0d915701F464DEbb66015adD62B2e6AE9";
 export const SingleSwapTokenABI = singleSwapToken.abi;
 
 // SWAP MULTIHOP
-export const SwapMultiHopAddress = "0x0724F18B2aA7D6413D3fDcF6c0c27458a8170Dd9";
+export const SwapMultiHopAddress = "0x97fd63D049089cd70D9D139ccf9338c81372DE68";
 export const SwapMultiHopABI = swapMultiHop.abi;
 
 
@@ -30,9 +32,22 @@ export const IWETHABI = IWETH.abi;
 
 //USER STORAGE DAta
 
-export const userStorageDataAddrss = "0xE7FF84Df24A9a252B6E8A5BB093aC52B1d8bEEdf";
+export const userStorageDataAddrss = "0xC0BF43A4Ca27e0976195E6661b099742f10507e5";
 export const userStorageDataABI = userStorgeData.abi;
 
+/*
+SingleSwapToken deployed to 0x5E5713a0d915701F464DEbb66015adD62B2e6AE9
+swapMultiHop deployed to 0x97fd63D049089cd70D9D139ccf9338c81372DE68
+UserStorageData deployed to 0xC0BF43A4Ca27e0976195E6661b099742f10507e5
+
+SingleSwapToken deployed to 0x43cA9bAe8dF108684E5EAaA720C25e1b32B0A075
+swapMultiHop deployed to 0x9D3DA37d36BB0B825CD319ed129c2872b893f538
+UserStorageData deployed to 0x59C4e2c6a6dC27c259D6d067a039c831e1ff4947
+
+SingleSwapToken deployed to 0xE7FF84Df24A9a252B6E8A5BB093aC52B1d8bEEdf
+swapMultiHop deployed to 0x6D712CB50297b97b79dE784d10F487C00d7f8c2C
+UserStorageData deployed to 0x04F339eC4D75Cf2833069e6e61b60eF56461CD7C
+*/
 // BOO deployed to 0x15Ff10fCc8A1a50bFbE07847A22664801eA79E0f
 // Life deployed to 0xAe9Ed85dE2670e3112590a2BB17b7283ddF44d9c
 // SingleSwapToken deployed to 0xD1760AA0FCD9e64bA4ea43399Ad789CFd63C7809

@@ -1,15 +1,18 @@
 // Token addresses
-shoaibAddress= '0x6D712CB50297b97b79dE784d10F487C00d7f8c2C';
-rayyanAddrss= '0x04F339eC4D75Cf2833069e6e61b60eF56461CD7C';
-popUpAddress= '0x3de00f44ce68FC56DB0e0E33aD4015C6e78eCB39';
 
+shoaibAddress= '0x43cA9bAe8dF108684E5EAaA720C25e1b32B0A075';
+rayyanAddrss= '0x9D3DA37d36BB0B825CD319ed129c2872b893f538';
+popUpAddress= '0x59C4e2c6a6dC27c259D6d067a039c831e1ff4947';
 // Uniswap contract address
-wethAddress= '0x89372b32b8AF3F1272e2efb3088616318D2834cA';
-factoryAddress= '0xB1c05b498Cb58568B2470369FEB98B00702063dA';
-swapRouterAddress= '0x92A00fc48Ad3dD4A8b5266a8F467a52Ac784fC83';
-nftDescriptorAddress= '0x2f8D338360D095a72680A943A22fE6a0d398a0B4';
-positionDescriptorAddress= '0x21915b79E1d334499272521a3508061354D13FF0';
-positionManagerAddress= '0x44863F234b137A395e5c98359d16057A9A1fAc55';
+
+
+
+wethAddress= '0x9d136eEa063eDE5418A6BC7bEafF009bBb6CFa70';
+factoryAddress= '0x687bB6c57915aa2529EfC7D2a26668855e022fAE';
+swapRouterAddress= '0x49149a233de6E4cD6835971506F47EE5862289c1';      
+nftDescriptorAddress= '0xAe2563b4315469bF6bdD41A6ea26157dE57Ed94e';   
+positionDescriptorAddress= '0x30426D33a78afdb8788597D5BFaBdADc3Be95698';
+positionManagerAddress= '0x85495222Fd7069B987Ca38C2142732EbBFb7175D';
 
 
 const artifacts = {
@@ -23,7 +26,7 @@ const bn = require("bignumber.js");
 const Web3Modal = require("web3modal");
 bn.config({ EXPONENTIAL_AT: 999999, DECIMAL_PLACES: 40 });
 
-const MAINNET_URL ="https://eth-mainnet.g.alchemy.com/v2/IAmRmpHdkfS07TF1PHTFdAQguR-hgCDO";
+const MAINNET_URL ="https://eth-mainnet.g.alchemy.com/v2/KNwhHlTDLdxzv-oLZbHE2jTVpqLsFGNQ";
 
 const provider = new ethers.providers.JsonRpcProvider(MAINNET_URL);
 

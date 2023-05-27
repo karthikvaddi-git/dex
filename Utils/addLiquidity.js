@@ -17,12 +17,13 @@ var positionManagerAddress;
 // positionDescriptorAddress= "0xdB012DD3E3345e2f8D23c0F3cbCb2D94f430Be8C";
 // positionManagerAddress= "0xd977422c9eE9B646f64A4C4389a6C98ad356d8C4";
 
-wethAddress= '0x89372b32b8AF3F1272e2efb3088616318D2834cA';
-factoryAddress= '0xB1c05b498Cb58568B2470369FEB98B00702063dA';
-swapRouterAddress= '0x92A00fc48Ad3dD4A8b5266a8F467a52Ac784fC83';
-nftDescriptorAddress= '0x2f8D338360D095a72680A943A22fE6a0d398a0B4';
-positionDescriptorAddress= '0x21915b79E1d334499272521a3508061354D13FF0';
-positionManagerAddress= '0x44863F234b137A395e5c98359d16057A9A1fAc55';
+wethAddress= '0x9d136eEa063eDE5418A6BC7bEafF009bBb6CFa70';
+factoryAddress= '0x687bB6c57915aa2529EfC7D2a26668855e022fAE';
+swapRouterAddress= '0x49149a233de6E4cD6835971506F47EE5862289c1';      
+nftDescriptorAddress= '0xAe2563b4315469bF6bdD41A6ea26157dE57Ed94e';   
+positionDescriptorAddress= '0x30426D33a78afdb8788597D5BFaBdADc3Be95698';
+positionManagerAddress= '0x85495222Fd7069B987Ca38C2142732EbBFb7175D';
+
 
 const artifacts = {
     NonfungiblePositionManager: require("@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json"),

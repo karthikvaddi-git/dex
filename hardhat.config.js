@@ -19,7 +19,7 @@
 //   networks: {
 //     hardhat: {
 //       forking: {
-//         url: "https://eth-mainnet.g.alchemy.com/v2/IAmRmpHdkfS07TF1PHTFdAQguR-hgCDO",
+//         url: "https://eth-mainnet.g.alchemy.com/v2/KNwhHlTDLdxzv-oLZbHE2jTVpqLsFGNQ",
 //       },
 //     },
 //   }
@@ -42,8 +42,8 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: "https://eth-mainnet.g.alchemy.com/v2/IAmRmpHdkfS07TF1PHTFdAQguR-hgCDO",
-        accounts: [`0x${"ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"}`],
+        url: "https://eth-mainnet.g.alchemy.com/v2/KNwhHlTDLdxzv-oLZbHE2jTVpqLsFGNQ",
+        accounts: [`0x${"de9be858da4a475276426320d5e9262ecfc3ba460bfac56360bfa6c4c28b4ee0"}`],
       },
     },
   },
